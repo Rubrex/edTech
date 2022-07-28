@@ -1,4 +1,4 @@
-.carousel-item::before {
+.overlay::before {
   position: absolute;
   content: "";
   top: 0;
@@ -6,4 +6,13 @@
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.527);
+}
+.fa-star {
+  color: gold;
+}
+.missed {
+  color: #fef3c7;
+}
+.mar-top {
+  margin-top: 5rem;
 }
